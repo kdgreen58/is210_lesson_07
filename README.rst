@@ -430,7 +430,7 @@ Specifications
         within your loop that can be used as the key of your dictionary.
         Example (1, 2, 3, ...)
     
-    #   Get the value to be associated with your key/counter by calling the
+    #.  Get the value to be associated with your key/counter by calling the
         ``task_09_utility.get_data()`` function and passing it the file path
         associated with the ``data`` key of your loop value (eg, see
         ``DATA_FILES`` construction.
