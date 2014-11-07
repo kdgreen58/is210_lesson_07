@@ -2,7 +2,11 @@
 # -*- coding: utf-8 -*-
 """My task 01 code."""
 
-x = {1:1, 2:4}
-y = x
-y[9] = 3
-z = (x,y)
+GRADE_DATA = {'student':['Luke Skywalker','Luke Skywalker','Luke Skywalker',
+                          'Luke Skywalker','Han Solo','Han Solo','Han Solo',
+                          'Han Solo','C-3PO','C-3PO','C-3PO','C-3PO'],
+              'subject':['math','etiquette','grammer','gym','math','etiquette',
+                         'grammer','gym','math','etiquette','grammer','gym'],
+              'grade':['B','B+','B','A','A-','C-','B','B','C','A+','A','F']
+                         
+    }
