@@ -3,7 +3,7 @@
 """Task 07 Code"""
 
 DATA = {
-     2: 7493945,
+    2: 7493945,
     76: 4654320,
     3: 4091979,
     90: 1824881,
@@ -32,7 +32,22 @@ DATA = {
     8: 4337229
 }
 
+
 def iter_dict_funky_sum(mydictarg):
+    """Iterates through a dictionary to calculate the sum of a difference.
+
+    Args:
+        mydictarg(dictionary): A dictionary with one value stored per key.
+  
+
+    Returns:
+        num(int): sum of difference between value and key
+
+    Examples:
+
+        >>>iter_dict_funky_sum(DATA)
+        140166242
+    """
     running_total = 0
     for key, value in mydictarg.iteritems():
         running_total += value - key
