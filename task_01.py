@@ -20,5 +20,5 @@ GRADE_DATA = {
         'etiquette': 'A+',
         'grammar': 'A',
         'gym': 'F',
-        },                        
+        },                       
 }
